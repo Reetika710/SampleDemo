@@ -14,7 +14,7 @@ namespace StringPrograms
             string s = Console.ReadLine();
             Program p = new Program();
             string t = p.Reverse(s);
-            Console.WriteLine("The reverse of {0} is {1}", s, t);
+            Console.WriteLine("The reverse of {0} is {1}", s, t);//Print reverse string
         }
 
         public string Reverse(string str)
